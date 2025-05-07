@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+    <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
@@ -35,9 +35,13 @@
 
         <activity
             android:name=".ARActivity"
-            android:screenOrientation="landscape"
-            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"
-            tools:ignore="LockedOrientationActivity"/>
+            android:label="Realidad Aumentada" />
+        <activity
+            android:name=".WhisperActivity"
+            android:label="Reconocimiento de Voz" />
+        <activity
+            android:name=".TTSActivity"
+            android:label="Texto a Voz" />
 
     </application>
 

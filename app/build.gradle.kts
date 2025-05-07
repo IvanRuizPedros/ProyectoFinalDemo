@@ -44,6 +44,7 @@ android {
     }
     buildFeatures {
         compose = true
+        viewBinding = true
     }
     composeOptions {
         kotlinCompilerExtensionVersion = "1.5.1"
@@ -82,4 +83,7 @@ dependencies {
 
     // Google TTS
     implementation("com.google.android.gms:play-services-mlkit-text-recognition:19.0.0")
+
+    // AppCompat (para AppCompatActivity)
+    implementation ("androidx.appcompat:appcompat:1.6.1")
 }
